@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 
 import { FaInstagram } from "react-icons/fa";
@@ -9,6 +11,14 @@ import Logo from "../../../public/nexus-logo.png"
 import FooterLine from "../../../public/footer-line.png"
 
 export const Footer = () => {
+
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+
     return (
         <footer >
           <div className="flex flex-row xs:flex-col md:flex-row justify-between px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
@@ -75,7 +85,7 @@ export const Footer = () => {
               <li><BiLogoTelegram /></li>
             </ul>
             <div className="flex flex-row gap-2 text-gray-800 xs:m-auto md:m-0">
-              <button className="text-sm font-medium text-balance">
+              <button className="text-sm font-medium text-balance" onClick={scrollToTop}>
                 BACK TO TOP 
               </button>
               <FaArrowUp />
