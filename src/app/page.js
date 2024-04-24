@@ -13,7 +13,7 @@ export default function Home() {
       <BenefitsTable />
       <TalentGallery />
       <KnowHow />
-      {/* <VideoPlayer /> */}
+      <VideoPlayer />
       <Faq />
     </main>
   );
