@@ -30,7 +30,7 @@ export const Hero = () =>  {
           <p className="mt-4 text-xl text-gray-600">
             We source, hire, pay and retain first-class <br/> Latin American talent. You save a ton!
           </p>
-          <button className="mt-6 p-2 text-white rounded-sm text-sm font-bold bg-green-500 my-2 mx-2 hover:bg-green-600">REQUEST A QUOTE</button>
+          <a href="https://view.forms.app/santiagodipaolo/nexus" target="_blank" className="hover:pointer mt-6 p-2 text-white rounded-sm text-sm font-bold bg-green-500 my-2 mx-2 hover:bg-green-600">REQUEST A QUOTE</a>
         </section>
         <div className="absolute mt-[-30px] ml-[-50px] top-0 left-0 xs:hidden md:hidden xl:block">
           <Image alt="question mark" src={HeroLine1} height={500} width={500} /> 

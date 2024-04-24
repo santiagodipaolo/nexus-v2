@@ -18,7 +18,7 @@ export const Navbar = () => {
                     <button className="font-semibold text-gray-700">TALENT</button>
                     <button className="font-semibold text-gray-700">CAREERS</button>
                     <button className="font-semibold text-gray-700">PRICING</button>
-                    <button className="bg-green-500 p-2 text-white rounded-sm text-sm font-bold">REQUEST A QUOTE</button>
+                    <a href="https://view.forms.app/santiagodipaolo/nexus" target="_blank" className="hover:pointer bg-green-500 hover:bg-green-600 p-2 text-white rounded-sm text-sm font-bold">REQUEST A QUOTE</a>
                 </ul>
             </div>
         </nav>
