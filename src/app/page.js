@@ -4,6 +4,7 @@ import TalentGallery from "@/components/TalentGallery";
 import KnowHow from "@/components/KnowHow";
 import Faq from "@/components/FAQ";
 import BenefitsTable from "@/components/Benefits";
+import VideoPlayer from "@/components/VideoPlayer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <BenefitsTable />
       <TalentGallery />
       <KnowHow />
+      {/* <VideoPlayer /> */}
       <Faq />
     </main>
   );
