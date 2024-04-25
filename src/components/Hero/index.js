@@ -36,7 +36,7 @@ export const Hero = () =>  {
           <Image alt="question mark" src={HeroLine1} height={500} width={500} /> 
         </div>
         <div className="absolute top-80 right-0 xs:hidden md:hidden xl:block mt-[-25px] mr-[-26px]">
-          <Image alt="question mark" src={HeroLine2} height={500} width={500} className="" /> 
+          <Image alt="question mark" src={HeroLine2} height={500} width={500} /> 
         </div>
       </div>
     )
