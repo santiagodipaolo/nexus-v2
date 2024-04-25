@@ -76,7 +76,7 @@ export const Footer = () => {
           </div>
           
           <div className="flex flex-col mt-12 md:flex-row md:items-center md:justify-between bg-white px-8 py-12 mx-auto md:px-12 lg:px-32">
-            <div className="xs:text-center xs:pl-32 md:pl-0 lg:pl-0 xl:pl-32">
+            <div className="xs:text-center xs:flex justify-center md:pl-0 lg:pl-0 xl:pl-32">
               <Image alt="Nexus Logo" width={80} height={80} src={Logo} />
             </div>
             <ul className="mt-8 flex justify-center gap-2 sm:mt-0 lg:justify-center text-black xs:mb-7 md:mb-0 xl:pl-28">
