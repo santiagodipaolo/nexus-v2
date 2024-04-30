@@ -3,7 +3,7 @@ import ArrowDown from "../../../public/arrow-down.png"
 
 const BenefitsTable = () => {
   return (
-    <div className="flex flex-col justify-center xs:p-10 md:p-0 items-center mt-20 bg-[url('/background-1.png')] w-full">
+    <div id="about" className="flex flex-col justify-center xs:p-10 md:p-0 items-center mt-20 bg-[url('/background-1.png')] w-full">
         <Image alt="arrow down" height={30} width={30} src={ArrowDown} className="mt-5" />
         <h1 className="font-semibold text-white text-3xl text-center mt-10 mb-10">We&apos;ve got the <br/> best of <i>both worlds</i></h1>
         <div className="overflow-x-auto xs:max-w-xs md:max-w-xl mb-[-70px] shadow-xl">

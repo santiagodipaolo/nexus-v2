@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const TalentGallery = () => {
     return (
-        <div className="xs:max-w-xs md:max-w-full mt-40"> 
+        <div id="talent" className="xs:max-w-xs md:max-w-full mt-40"> 
             <div className="text-4xl flex flex-row text-black justify-center mb-8">
                 <GoArrowUpRight />
                 <h1 className="font-semibold">

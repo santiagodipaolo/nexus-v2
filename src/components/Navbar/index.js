@@ -1,5 +1,5 @@
-'use client';
 
+import Link from "next/link";
 import Image from "next/image";
 import MenuIcon from "./MenuIcon";
 import Logo from "../../../public/nexus-logo.png"
@@ -14,10 +14,10 @@ export const Navbar = () => {
                     <MenuIcon />
                 </div>
                 <ul className="flex items-center space-x-6 xs:hidden md:flex">
-                    <button onClick={() => console.log('working')} className="font-semibold text-gray-700">ABOUT</button>
-                    <button className="font-semibold text-gray-700">TALENT</button>
-                    <button className="font-semibold text-gray-700">CAREERS</button>
-                    <button className="font-semibold text-gray-700">PRICING</button>
+                    <Link href="#about" className="font-semibold text-gray-700">ABOUT</Link>
+                    <Link href="#talent" className="font-semibold text-gray-700">TALENT</Link>
+                    <Link href="#" className="font-semibold text-gray-700">CAREERS</Link>
+                    <Link href="#" className="font-semibold text-gray-700">PRICING</Link>
                     <a href="https://view.forms.app/santiagodipaolo/nexus" target="_blank" className="hover:pointer bg-green-500 hover:bg-green-600 p-2 text-white rounded-sm text-sm font-bold">REQUEST A QUOTE</a>
                 </ul>
             </div>
