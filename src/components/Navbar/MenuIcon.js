@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 export default function MenuIcon(props) {
@@ -30,12 +31,15 @@ export default function MenuIcon(props) {
             </svg>
           </button>
             {isOpen && (
-                <div className="border rounded-md absolute">
-                  <ul className="flex flex-col flex-start items-center space-x-6">
-                    <button className="font-semibold text-gray-700">ABOUT</button>
-                    <button className="font-semibold text-gray-700">TALENT</button>
-                    <button className="font-semibold text-gray-700">CAREERS</button>
-                    <button className="font-semibold text-gray-700">PRICING</button>
+                <div className="border rounded-md absolute bg-white top-0 right-0 left-0 h-screen p-10 max-h-[300px]">
+                  <div className='flex justify-end'>
+                    <button onClick={toggleMenu} className='flex justify-end text-xl font-bold'>X</button>
+                  </div>
+                  <ul className="flex flex-col flex-start items-center space-y-6 text-xl">
+                    <Link href="#about" onClick={toggleMenu} className="font-semibold text-gray-700">ABOUT</Link>
+                    <Link href="#talent" onClick={toggleMenu} className="font-semibold text-gray-700">TALENT</Link>
+                    <Link href="#" onClick={toggleMenu} className="font-semibold text-gray-700">CAREERS</Link>
+                    <Link href="#" onClick={toggleMenu} className="font-semibold text-gray-700">PRICING</Link>
                   </ul>
                 </div>
             )}
