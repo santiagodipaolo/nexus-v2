@@ -7,16 +7,17 @@ export const Navbar = () => {
 
     return (
         <nav className="flex justify-between px-20 py-10 items-center bg-white">
-            <Image alt="Nexus Logo" width={80} height={80} src={Logo} className="xs:ml-0 md:ml-14"/>
+            <Image alt="Nexus Logo" width={90} height={90} src={Logo} className="xs:ml-0 md:ml-14"/>
             <div className="flex items-center">
                 <div className="text-black md:hidden">
                     <MenuIcon />
                 </div>
-                <ul className="flex items-center space-x-6 xs:hidden md:flex">
-                    <Link href="#about" className="font-semibold text-gray-700">ABOUT</Link>
-                    <Link href="#talent" className="font-semibold text-gray-700">TALENT</Link>
-                    <Link href="#" className="font-semibold text-gray-700">CAREERS</Link>
-                    <Link href="#" className="font-semibold text-gray-700">PRICING</Link>
+                <ul className="flex items-center space-x-12 md:mr-0 xl:mr-24 xs:hidden md:flex">
+                    <Link href="#about" className=" text-gray-700">ABOUT</Link>
+                    <Link href="#talent" className=" text-gray-700">TALENT</Link>
+                    <Link href="#" className=" text-gray-700">CAREERS</Link>
+                    <Link href="#" className=" text-gray-700">PRICING</Link>
+                    <Link href="#" className=" text-gray-700">BLOG</Link>
                     <a href="https://view.forms.app/santiagodipaolo/nexus" target="_blank" className="hover:pointer bg-green-500 hover:bg-green-600 p-2 text-white rounded-sm text-sm font-bold">REQUEST A QUOTE</a>
                 </ul>
             </div>
