@@ -16,7 +16,7 @@ const BenefitsTable = () => {
                     <th><i>for our talent</i></th>
                 </tr>
                 </thead>
-                <tbody className="bg-white text-black">
+                <tbody className="bg-[#F8F5F2] text-black">
                 {/* row 1 */}
                 <tr>
                     <th className="border-r border-gray-500"><i>Payment</i></th>

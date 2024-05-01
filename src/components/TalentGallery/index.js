@@ -18,7 +18,7 @@ const TalentGallery = () => {
                 <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
                     <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-1-min.png" className="" />
                 </div>
-                    <div className="bg-white text-black py-5 px-5 text-center">
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         María Rodriguez, <br/>
                         <p className="text-lg"><i><b>Creative Director</b></i></p>
                     </div>
@@ -29,7 +29,7 @@ const TalentGallery = () => {
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
                         <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-7.png" className="" />
                     </div>
-                    <div className="bg-white text-black py-5 px-5 text-center">
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Federico González, <br/>
                         <p className="text-lg"><i><b>Software Engineer</b></i></p>
                     </div>
@@ -40,7 +40,7 @@ const TalentGallery = () => {
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
                         <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-2-min.png" className="" />
                     </div>
-                    <div className="bg-white text-black py-5 px-5 text-center">
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Santiago Hernandez, <br/>
                         <p className="text-lg"><i><b>Full Stack Engineer</b></i></p>
                     </div>
@@ -51,7 +51,7 @@ const TalentGallery = () => {
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
                         <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-3-min.png" className="" />
                     </div>
-                    <div className="bg-white text-black py-5 px-5 text-center">
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Valentina López, <br/>
                         <p className="text-lg"><i><b>Brand Designer</b></i></p>
                     </div>
@@ -62,7 +62,7 @@ const TalentGallery = () => {
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
                         <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-4-min.png" className="" />
                     </div>
-                    <div className="bg-white text-black py-5 px-5 text-center">
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Lucas Muñoz, <br/>
                         <p className="text-lg"><i><b>Account Executive</b></i></p>
                     </div>
@@ -73,7 +73,7 @@ const TalentGallery = () => {
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
                         <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-5-min.png" className="" />
                     </div>
-                    <div className="bg-white text-black py-5 px-5 text-center">
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Joao Silva, <br/>
                         <p className="text-lg"><i><b>Marketing Executive</b></i></p>
                     </div>
@@ -84,7 +84,7 @@ const TalentGallery = () => {
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
                         <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-8.png" className="" />
                     </div>
-                    <div className="bg-white text-black py-5 px-5 text-center">
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Francisco Herrera, <br/>
                         <p className="text-lg"><i><b>Business Intelligence Analyst</b></i></p>
                     </div>

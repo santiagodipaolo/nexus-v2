@@ -31,7 +31,7 @@ export default function MenuIcon(props) {
             </svg>
           </button>
             {isOpen && (
-                <div className="border rounded-md absolute bg-white top-0 right-0 left-0 h-screen p-10 max-h-[320px]">
+                <div className="border rounded-md absolute bg-[#F8F5F2] top-0 right-0 left-0 h-screen p-10 max-h-[320px]">
                   <div className='flex justify-end'>
                     <button onClick={toggleMenu} className='flex justify-end text-xl font-bold'>X</button>
                   </div>

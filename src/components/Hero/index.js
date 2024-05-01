@@ -8,7 +8,7 @@ import HeroLine2 from "../../../public/hero-line-2.png"
 
 export const Hero = () =>  {
     return (
-      <div className="bg-white text-black mt-14">
+      <div className="text-black mt-14">
         <section className="flex flex-col items-center justify-center text-center m-auto px-4 py-2">
           <h1 className="xs:text-5xl md:text-6xl font-semibold leading-tigh">
             <div className="flex flex-row gap-4">
