@@ -89,6 +89,61 @@ const TalentGallery = () => {
                         <p className="text-lg"><i><b>Business Intelligence Analyst</b></i></p>
                     </div>
                 </div>
+
+                {/* eigth image */}
+                <div className="carousel-item flex flex-col bg-blue-200">
+                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-9.png" className="" />
+                    </div>
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
+                        Pablo Etcheverry, <br/>
+                        <p className="text-lg"><i><b>Data Analyst</b></i></p>
+                    </div>
+                </div>
+
+                {/* ninth image */}
+                <div className="carousel-item flex flex-col bg-blue-200">
+                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-10.png" className="" />
+                    </div>
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
+                        Eugenia Sanchez M, <br/>
+                        <p className="text-lg"><i><b>Data Scientist</b></i></p>
+                    </div>
+                </div>
+
+                {/* tenth image */}
+                <div className="carousel-item flex flex-col bg-blue-200">
+                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-11.png" className="" />
+                    </div>
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
+                        Adriana Do Lima, <br/>
+                        <p className="text-lg"><i><b>ML Engineer</b></i></p>
+                    </div>
+                </div>
+
+                {/* eleventh image */}
+                <div className="carousel-item flex flex-col bg-blue-200">
+                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-12.png" className="" />
+                    </div>
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
+                        Emilia Fernández, <br/>
+                        <p className="text-lg"><i><b>Frontend Engineer</b></i></p>
+                    </div>
+                </div>
+
+                {/* twelfth image */}
+                <div className="carousel-item flex flex-col bg-blue-200">
+                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-13.png" className="" />
+                    </div>
+                    <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
+                        Pilar Pereira, <br/>
+                        <p className="text-lg"><i><b>Solutions Architect</b></i></p>
+                    </div>
+                </div>
             </div>
         </div>
     )

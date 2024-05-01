@@ -22,7 +22,7 @@ export const Navbar = () => {
                 <div className="text-black md:hidden">
                     <MenuIcon />
                 </div>
-                <ul className="flex items-center space-x-12 md:mr-0 xl:mr-24 xs:hidden md:flex">
+                <ul className="flex items-center md:space-x-8 xl:space-x-12 md:mr-0 xl:mr-24 xs:hidden md:flex">
                     <div className="flex flex-row text-gray-700 gap-2 hover:cursor-pointer" onClick={toggleAboutMenu}>
                         <p>ABOUT</p>
                         <IoIosArrowDown className="mt-1"/>

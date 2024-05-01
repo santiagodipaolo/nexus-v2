@@ -25,13 +25,13 @@ export default function MenuIcon(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
             >
-                <line x1="4" x2="20" y1="12" y2="12" />
-                <line x1="4" x2="20" y1="6" y2="6" />
-                <line x1="4" x2="20" y1="18" y2="18" />
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="18" y2="18" />
             </svg>
           </button>
             {isOpen && (
-                <div className="border rounded-md absolute bg-[#F8F5F2] top-0 right-0 left-0 h-screen p-10 max-h-[320px]">
+                <div className="border rounded-md absolute bg-[#F8F5F2] top-0 right-0 left-0 h-screen p-10 max-h-[320px] border-b border-gray-700">
                   <div className='flex justify-end'>
                     <button onClick={toggleMenu} className='flex justify-end text-xl font-bold'>X</button>
                   </div>
