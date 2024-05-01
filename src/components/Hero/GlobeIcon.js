@@ -3,6 +3,6 @@ import HeroPlanet from "../../../public/hero-planet.png"
 
 export default function GlobeIcon() {
     return (
-      <Image alt="globe icon" height={80} width={80} src={HeroPlanet} className="xs:hidden md:inline-block" />
+      <Image alt="globe icon" style={{width:"70px", height:"auto"}} src={HeroPlanet} className="xs:hidden md:inline-block" />
     )
 }

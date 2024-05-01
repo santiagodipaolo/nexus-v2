@@ -11,12 +11,14 @@ const TalentGallery = () => {
                     with <i>innovative companies</i>
                 </h1>
             </div>
-            <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black border-b border-gray-500">
 
-                 {/* first image */}
+            {/* carousel */}
+            <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black border-b border-gray-500 h-[500px]">
+
+                {/* first image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                 <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                    <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-1-min.png" className="" />
+                    <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-1-min.png" className="" />
                 </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         María Rodriguez, <br/>
@@ -27,7 +29,7 @@ const TalentGallery = () => {
                  {/* second image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-7.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-7.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Federico González, <br/>
@@ -38,7 +40,7 @@ const TalentGallery = () => {
                  {/* third image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-2-min.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-2-min.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Santiago Hernandez, <br/>
@@ -49,7 +51,7 @@ const TalentGallery = () => {
                  {/* fourth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-3-min.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-3-min.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Valentina López, <br/>
@@ -60,7 +62,7 @@ const TalentGallery = () => {
                  {/* fifth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-4-min.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-4-min.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Lucas Muñoz, <br/>
@@ -71,7 +73,7 @@ const TalentGallery = () => {
                  {/* sixth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-5-min.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-5-min.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Joao Silva, <br/>
@@ -82,7 +84,7 @@ const TalentGallery = () => {
                  {/* seventh image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-8.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-8.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Francisco Herrera, <br/>
@@ -93,7 +95,7 @@ const TalentGallery = () => {
                 {/* eigth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-9.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-9.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Pablo Etcheverry, <br/>
@@ -104,7 +106,7 @@ const TalentGallery = () => {
                 {/* ninth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-10.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-10.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Eugenia Sanchez M, <br/>
@@ -115,7 +117,7 @@ const TalentGallery = () => {
                 {/* tenth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-11.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-11.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Adriana Do Lima, <br/>
@@ -126,7 +128,7 @@ const TalentGallery = () => {
                 {/* eleventh image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-12.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-12.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Emilia Fernández, <br/>
@@ -137,7 +139,7 @@ const TalentGallery = () => {
                 {/* twelfth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" layout="fill" objectFit="cover" src="/people/people-13.png" className="" />
+                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-13.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
                         Pilar Pereira, <br/>

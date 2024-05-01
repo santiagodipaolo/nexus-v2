@@ -22,10 +22,6 @@ export default function VideoPlayer() {
             >
                 <iframe
                     src="https://www.youtube.com/embed/LWXQdw-YvVM"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
                     style={{
                         position: 'relative',
                         padding: '10px',

@@ -3,6 +3,6 @@ import Star from "../../../public/hero-star.png"
 
 export default function StarIcon() {
     return (
-      <Image alt="star icon" height={30} width={50} src={Star} className="xs:hidden md:inline-block" />
+      <Image alt="star icon" style={{width:"50px", height:"auto"}} src={Star} className="xs:hidden md:inline-block" />
     )
 }

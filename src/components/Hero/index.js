@@ -33,10 +33,10 @@ export const Hero = () =>  {
           <a href="https://view.forms.app/santiagodipaolo/nexus" target="_blank" className="hover:pointer mt-6 p-2 text-white rounded-sm text-sm font-bold bg-green-500 my-2 mx-2 hover:bg-green-600">REQUEST A QUOTE</a>
         </section>
         <div className="absolute mt-[-30px] ml-[-50px] top-0 left-0 xs:hidden md:hidden xl:block">
-          <Image alt="question mark" src={HeroLine1} height={500} width={500} /> 
+          <Image alt="question mark" src={HeroLine1} style={{width:"500px", height:"auto"}} /> 
         </div>
         <div className="absolute top-80 right-0 xs:hidden md:hidden xl:block mt-[-25px] mr-[-26px]">
-          <Image alt="question mark" src={HeroLine2} height={500} width={500} /> 
+          <Image alt="question mark" src={HeroLine2} style={{width:"500px", height:"auto"}} /> 
         </div>
       </div>
     )
