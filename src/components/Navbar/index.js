@@ -6,6 +6,7 @@ import Image from "next/image";
 import MenuIcon from "./MenuIcon";
 import Logo from "../../../public/nexus-logo.png"
 import { IoIosArrowDown } from "react-icons/io";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,10 +28,16 @@ export const Navbar = () => {
                         <IoIosArrowDown className="mt-1"/>
                     </div>
                     {isOpen && (
-                        <div className="border rounded-md absolute bg-[#F8F5F2] p-3 top-20 max-h-[120px]">
-                            <ul className="flex flex-col flex-start items-center space-y-2 text-md">
-                                <Link href="#about" onClick={toggleAboutMenu} className="text-gray-700">About us</Link>
-                                <Link href="#how-it-works" onClick={toggleAboutMenu} className="text-gray-700">How it works</Link>
+                        <div className="border rounded-md border-black absolute bg-[#F8F5F2] p-3 top-20 max-h-[120px]">
+                            <ul className="flex flex-col space-y-2 text-md">
+                                <li className="flex flex-row text-gray-800 gap-2">
+                                    <FaArrowCircleRight className="mt-1"/>
+                                    <Link href="#about" onClick={toggleAboutMenu} className="text-gray-700">About us</Link>
+                                </li>
+                                <li className="flex flex-row text-gray-800 gap-2">
+                                    <FaArrowCircleRight className="mt-1" />
+                                    <Link href="#how-it-works" onClick={toggleAboutMenu} className="text-gray-700">How it works</Link>
+                                </li>
                             </ul>
                         </div>
                     )}
