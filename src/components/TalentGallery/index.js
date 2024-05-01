@@ -18,6 +18,7 @@ const TalentGallery = () => {
                 {/* first image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                 <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                    <div className="badge badge-ghost font-bold text-gray-300 m-1">creative</div>
                     <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-1-min.png" className="" />
                 </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -29,6 +30,7 @@ const TalentGallery = () => {
                  {/* second image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300 m-1">engineering</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-7.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -40,6 +42,7 @@ const TalentGallery = () => {
                  {/* third image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300">engineering</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-2-min.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -51,6 +54,7 @@ const TalentGallery = () => {
                  {/* fourth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300 m-1">design</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-3-min.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -62,6 +66,7 @@ const TalentGallery = () => {
                  {/* fifth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300">accounting</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-4-min.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -73,6 +78,7 @@ const TalentGallery = () => {
                  {/* sixth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300 m-1">marketing</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-5-min.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -84,6 +90,7 @@ const TalentGallery = () => {
                  {/* seventh image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300 m-1">data</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-8.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -95,6 +102,7 @@ const TalentGallery = () => {
                 {/* eigth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300 m-1">data</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-9.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -106,6 +114,7 @@ const TalentGallery = () => {
                 {/* ninth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300 m-1">data</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-10.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -117,6 +126,7 @@ const TalentGallery = () => {
                 {/* tenth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300 m-1">engineering</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-11.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -128,6 +138,7 @@ const TalentGallery = () => {
                 {/* eleventh image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300 m-1">engineering</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-12.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
@@ -139,6 +150,7 @@ const TalentGallery = () => {
                 {/* twelfth image */}
                 <div className="carousel-item flex flex-col bg-blue-200">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
+                        <div className="badge badge-ghost font-bold text-gray-300">engineering</div>
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-13.png" className="" />
                     </div>
                     <div className="bg-[#F8F5F2] text-black py-5 px-5 text-center">
