@@ -34,7 +34,7 @@ const Faq = () => {
                         What procedures do I need to follow to hire an international employee?
                     </div>
                     <div className="collapse-content"> 
-                        <p>Hiring an international employee can be a complex process, involving various legal and bureaucratic requirements. However, you don't need to worry about any of that! We can handle all of the paperwork and bureaucracy on your behalf. There are no extra costs or hidden fees involved; everything is included in the flat fee that we quote you.</p>
+                        <p>Hiring an international employee can be a complex process, involving various legal and bureaucratic requirements. However, you don&apos;t need to worry about any of that! We can handle all of the paperwork and bureaucracy on your behalf. There are no extra costs or hidden fees involved; everything is included in the flat fee that we quote you.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-arrow join-item border border-base-300">
