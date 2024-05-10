@@ -42,17 +42,17 @@ export const Footer = () => {
               <h3 className="text-base text-white font-semibold"><i>Company</i></h3>
               <ul role="list" className="mt-4 space-y-2 text-sm">
                 <li>
-                  <a href="https://twitter.com/lexingtonthemes" className="hover:underline">
+                  <a href="#" className="hover:underline">
                     ABOUT
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/Mike_Andreuzza" className="hover:underline">
+                  <a href="#" className="hover:underline">
                     CAREERS
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/Mike_Andreuzza" className="hover:underline">
+                  <a href="#" className="hover:underline">
                     TERMS & CONDITIONS
                   </a>
                 </li>
@@ -62,12 +62,12 @@ export const Footer = () => {
               <h3 className="text-base text-white font-semibold xs:mt-5"><i>Product</i></h3>
               <ul role="list" className="mt-4 space-y-2 text-sm">
                 <li>
-                  <a href="https://lexingtonthemes.com/" className="hover:underline">
+                  <a href="#" className="hover:underline">
                     PRICING
                   </a>
                 </li>
                 <li>
-                  <a href="https://lexingtonthemes.com/" className="hover:underline">
+                  <a href="#" className="hover:underline">
                     TALENT
                   </a>
                 </li>

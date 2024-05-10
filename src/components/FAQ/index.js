@@ -58,7 +58,7 @@ const Faq = () => {
             </div>
         </div>
         <div className="absolute right-0 xs:hidden md:hidden xl:block">
-            <Image alt="question mark" src={QuestionMark} height={300} width={300} /> 
+            <Image alt="question mark" src={QuestionMark} height={300} width={301} /> 
         </div>
     </div>
   )
