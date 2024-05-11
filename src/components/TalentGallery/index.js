@@ -23,8 +23,8 @@ const TalentGallery = () => {
             </div>
 
             {/* carousel */}
-            <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-[#f5ede5] border-b border-gray-500 h-[500px]">
-            <FaArrowCircleLeft className="absolute mt-40 z-50 bg-black text-white" style={{width:'40px', height:'auto', borderRadius:'30px'}}/>
+            <div className="carousel carousel-center max-w-full pb-2 space-x-4 bg-[#f5ede5] border-b border-gray-500 h-[500px]">
+            <FaArrowCircleLeft className="absolute mt-40 z-50 xs:left-8 md:left-0 bg-black text-white" style={{width:'40px', height:'auto', borderRadius:'30px'}}/>
                 {/* first image */}
                 <div className="carousel-item flex flex-col bg-[#e4d0bc]">
                     <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
@@ -156,7 +156,7 @@ const TalentGallery = () => {
                         <p className="text-xl"><i><b>Solutions Architect</b></i></p>
                     </div>
                 </div>
-                <FaArrowCircleRight className="absolute right-0 mt-40 z-50 bg-black text-white" style={{width:'40px', height:'auto', borderRadius:'30px'}}/>
+                <FaArrowCircleRight className="absolute md:right-0 xs:right-10 mt-40 z-50 bg-black text-white" style={{width:'40px', height:'auto', borderRadius:'30px'}}/>
             </div>
         </div>
     )
