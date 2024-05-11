@@ -18,27 +18,27 @@ const BenefitsTable = () => {
                 <tbody className="bg-[#F8F5F2] text-black">
                 {/* row 1 */}
                 <tr>
-                    <th className="border-r border-gray-500"><i>Lower cost</i></th>
+                    <th className="border-r border-gray-500 text-lg"><i>Lower cost</i></th>
                     <td className="border-r border-gray-500">Depending on the role, salaries in Latin America can save between 40% and 70% for the company. </td>
                 </tr>
                 {/* row 2 */}
                 <tr>
-                    <th className="border-r border-gray-500"><i>Cultural Fit</i></th>
-                    <td className="border-r border-gray-500">Latin American professionals excel in US companies by adapting to dynamic cultures and mirroring dedicated work ethic, spirit and agilityy</td>
+                    <th className="border-r border-gray-500 text-lg"><i>Cultural Fit</i></th>
+                    <td className="border-r border-gray-500">Latin American professionals excel in US companies by adapting to dynamic cultures and mirroring dedicated work ethic, spirit and agility.</td>
                 </tr>
                 {/* row 3 */}
                 <tr>
-                    <th className="border-r border-gray-500"><i>US Times Zones</i></th>
+                    <th className="border-r border-gray-500 text-lg"><i>US Times Zones</i></th>
                     <td className="border-r border-gray-500">LatAm and US time zones are typically aligned, making coordination and communication between the regions convenient and efficient. </td>
                 </tr>
                 {/* row 4 */}
                 <tr>
-                    <th className="border-r border-gray-500"><i>Strong English</i></th>
+                    <th className="border-r border-gray-500 text-lg"><i>Strong English</i></th>
                     <td className="border-r border-gray-500">Many people have a high level of English proficiency, allowing them to communicate well in the global professional market.</td>
                 </tr>
                 {/* row 5 */}
                 <tr>
-                    <th className="border-r border-gray-500"><i>High Motivation</i></th>
+                    <th className="border-r border-gray-500 text-lg"><i>High Motivation</i></th>
                     <td className="border-r border-gray-500">Low salaries in LatAm make the possibility of earning a US dollar salary a strong motivator for workers in the region.</td>
                 </tr>
                 </tbody>

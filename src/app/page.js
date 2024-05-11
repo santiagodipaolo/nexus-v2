@@ -8,7 +8,7 @@ import VideoPlayer from "@/components/VideoPlayer";
 
 export default function Home() {
   return (
-    <main className="bg-[#F8F5F2] flex min-h-screen flex-col items-center justify-between overflow-hidden">
+    <main className="bg-[#f5ede5] flex min-h-screen flex-col items-center justify-between overflow-hidden">
       <Hero />
       <BenefitsTable />
       <TalentGallery />

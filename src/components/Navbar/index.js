@@ -16,7 +16,7 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className="flex justify-between px-20 py-10 items-center bg-[#F8F5F2]">
+        <nav className="flex justify-between px-20 py-10 items-center bg-[#f5ede5]">
             <Image alt="Nexus Logo" src={Logo} className="xs:ml-0 md:ml-14" style={{width:"90px", height:"auto"}}/>
             <div className="flex items-center">
                 <div className="text-black md:hidden">
