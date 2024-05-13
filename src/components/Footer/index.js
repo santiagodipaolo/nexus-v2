@@ -8,7 +8,6 @@ import { BiLogoTelegram } from "react-icons/bi";
 import { FaArrowUp } from "react-icons/fa";
 
 import Logo from "../../../public/nexus-logo.png"
-import FooterLine from "../../../public/footer-line.png"
 
 export const Footer = () => {
 
@@ -25,7 +24,7 @@ export const Footer = () => {
             <div className="flex flex-col justify-between gap-8">
               <p className="text-xl text-center font-semibold ">
                 Want to know more? <br/>
-                <b>Let&apos;s <i>get in touch</i></b>
+                <b><i>Get in touch</i></b>
               </p>
               <form className="w-full max-w-sm xs:mb-5">
                 <div className="flex flex-col w-full lg:flex-row">
@@ -42,7 +41,7 @@ export const Footer = () => {
               <h3 className="text-base text-white font-semibold"><i>Company</i></h3>
               <ul role="list" className="mt-4 space-y-2 text-sm">
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#about" className="hover:underline">
                     ABOUT
                   </a>
                 </li>
@@ -62,12 +61,12 @@ export const Footer = () => {
               <h3 className="text-base text-white font-semibold xs:mt-5"><i>Product</i></h3>
               <ul role="list" className="mt-4 space-y-2 text-sm">
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#pricing" className="hover:underline">
                     PRICING
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#talent" className="hover:underline">
                     TALENT
                   </a>
                 </li>
