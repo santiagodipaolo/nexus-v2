@@ -8,7 +8,7 @@ export const Pricing = () => {
                       Pricing 
                     </h1>
                     <p className="mt-4 text-base text-lg text-black">
-                      At <b className="text-gray-300">Nexus,</b> we are more than a recruitment agency; we are your partners in growth and innovation. Whether you're looking to expand your company with a skilled professional or team, Nexus is here to support you every step of the way.<br/><br/>
+                      At <b className="text-gray-300">Nexus,</b> we are more than a recruitment agency; we are your partners in growth and innovation. Whether you&apos;re looking to expand your company with a skilled professional or team, Nexus is here to support you every step of the way.<br/><br/>
                       Our proprietary matching system ensures that you connect with candidates who not only meet your technical requirements but also align with your company culture and values.
                       From initial screening to final onboarding, Nexus offers end-to-end support, ensuring a smooth transition for both companies and candidates.
                     </p>
