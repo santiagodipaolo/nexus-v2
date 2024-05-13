@@ -7,7 +7,7 @@ import ArrowUpRight from "../../../public/arrow-right-up.svg"
 export default function VideoPlayer() {
     return (
        <div className=" mt-20 mb-20">
-            <h1 className="flex justify-center md:text-3xl xs:text-2xl font-semibold mb-10 text-black">We need to change <i>this title</i></h1>
+            <h1 className="flex justify-center md:text-3xl xs:text-2xl font-semibold mb-10 text-black">We need to change &nbsp;<i>this title</i></h1>
             <div
                 className="bg-[url('/faq-bg.png')] xs:max-w-xs md:max-w-2xl lg:max-w-4xl"
                 style={{

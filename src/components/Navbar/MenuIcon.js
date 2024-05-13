@@ -39,7 +39,7 @@ export default function MenuIcon(props) {
                     <Link href="#about" onClick={toggleMenu} className="font-semibold text-gray-700">ABOUT</Link>
                     <Link href="#talent" onClick={toggleMenu} className="font-semibold text-gray-700">TALENT</Link>
                     <Link href="#" onClick={toggleMenu} className="font-semibold text-gray-700">CAREERS</Link>
-                    <Link href="#" onClick={toggleMenu} className="font-semibold text-gray-700">PRICING</Link>
+                    <Link href="#pricing" onClick={toggleMenu} className="font-semibold text-gray-700">PRICING</Link>
                     {/* <Link href="#" onClick={toggleMenu} className="font-semibold text-gray-700">BLOG</Link> */}
                   </ul>
                 </div>

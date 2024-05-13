@@ -43,7 +43,7 @@ export const Navbar = () => {
                     )}
                     <Link href="#talent" className=" text-gray-700">TALENT</Link>
                     <Link href="#" className=" text-gray-700">CAREERS</Link>
-                    <Link href="#" className=" text-gray-700">PRICING</Link>
+                    <Link href="#pricing" className=" text-gray-700">PRICING</Link>
                     {/* <Link href="#" className=" text-gray-700">BLOG</Link> */}
                     <a href="https://view.forms.app/santiagodipaolo/nexus" target="_blank" className="hover:pointer bg-green-500 hover:bg-green-600 p-2 text-white rounded-sm text-sm font-bold">REQUEST A QUOTE</a>
                 </ul>
