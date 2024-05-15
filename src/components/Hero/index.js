@@ -25,7 +25,7 @@ export const Hero = () =>  {
             {/* </div> */}
             <div className="flex flex-row mx-4 mt-4">
               <StarIcon />
-              top-tier remote professionals
+              <i>top-tier remote professionals</i>
             </div>
           </h1>
           <p className="mt-4 text-xl text-gray-600">
