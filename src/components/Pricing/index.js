@@ -1,6 +1,6 @@
 export const Pricing = () => {
     return (
-        <div id="pricing" className="flex flex-col justify-center items-center bg-gray-900 w-full xs:h-[1500px] lg:h-[800px] xl:h-[610px]">
+        <div id="pricing" className="flex flex-col justify-center items-center bg-black w-full xs:h-[1500px] lg:h-[800px] xl:h-[610px]">
           <section id="how-it-works">
               <div className="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-7xl">
                 <div className="text-center">
@@ -17,7 +17,7 @@ export const Pricing = () => {
                   <div className="grid grid-cols-1 gap-6 mt-10 lg:grid-cols-3">
                     <div className="flex flex-col justify-between h-full">
                       <div className="p-2 overflow-hidden border rounded-3xl">
-                        <div className="p-8 bg-white border shadow-2xl rounded-2xl lg:p-10">
+                        <div className="p-8 bg-[#f5ede5] border shadow-2xl rounded-2xl lg:p-10">
                           <div>
                             <span className="text-lg font-medium text-black lg:text-2xl">Placement</span>
                             <p className="mt-4 text-base font-medium text-gray-500">
@@ -30,7 +30,7 @@ export const Pricing = () => {
                     </div>
                     <div className="flex flex-col justify-between">
                       <div className="p-2 overflow-hidden border rounded-3xl">
-                        <div className="h-[275px] p-8 bg-white border shadow-2xl rounded-2xl lg:p-10">
+                        <div className="h-[275px] p-8 bg-[#f5ede5] border shadow-2xl rounded-2xl lg:p-10">
                           <div>
                             <span className="text-lg font-medium text-black lg:text-2xl">Staffing</span>
                             <p className="mt-4 text-base font-medium text-gray-500">
@@ -43,7 +43,7 @@ export const Pricing = () => {
                     </div>
                     <div className="flex flex-col justify-between">
                       <div className="p-2 overflow-hidden border rounded-3xl">
-                        <div className="h-[275px] p-8 bg-white border shadow-2xl rounded-2xl lg:p-10">
+                        <div className="h-[275px] p-8 bg-[#f5ede5] border shadow-2xl rounded-2xl lg:p-10">
                           <div>
                             <span className="text-lg font-medium text-black lg:text-2xl">Teams</span>
                             <p className="mt-4 text-base font-medium text-gray-500">
