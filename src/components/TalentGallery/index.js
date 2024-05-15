@@ -2,6 +2,12 @@ import Image from "next/image";
 
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaArrowCircleLeft } from "react-icons/fa";
+import { AR } from 'country-flag-icons/react/3x2'
+import { BR } from 'country-flag-icons/react/3x2'
+import { UY } from 'country-flag-icons/react/3x2'
+import { CL } from 'country-flag-icons/react/3x2'
+import { MX } from 'country-flag-icons/react/3x2'
+import { CO } from 'country-flag-icons/react/3x2'
 
 const TalentGallery = () => {
     return (
@@ -31,7 +37,10 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-1-min.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        María Rodriguez, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <MX title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>María Rodriguez, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Creative Director</b></i></p>
                     </div>
                 </div> 
@@ -42,7 +51,10 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-7.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Federico González, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <CO title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>Federico González, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Software Engineer</b></i></p>
                     </div>
                 </div> 
@@ -53,7 +65,10 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-2-min.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Santiago Hernandez, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <UY title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>Santiago Hernandez, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Full Stack Engineer</b></i></p>
                     </div>
                 </div> 
@@ -64,7 +79,10 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-3-min.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Valentina López, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <CL title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>Valentina López, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Brand Designer</b></i></p>
                     </div>
                 </div> 
@@ -75,7 +93,10 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-4-min.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Lucas Muñoz, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <AR title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>Lucas Muñoz, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Account Executive</b></i></p>
                     </div>
                 </div> 
@@ -86,7 +107,10 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-5-min.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Joao Silva, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <BR title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>Joao Silva, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Marketing Executive</b></i></p>
                     </div>
                 </div> 
@@ -97,19 +121,11 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-8.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Francisco Herrera, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <CL title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>Francisco Herrera, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Business Intelligence Analyst</b></i></p>
-                    </div>
-                </div>
-
-                {/* eigth image */}
-                <div className="carousel-item flex flex-col bg-[#e4d0bc]">
-                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-9.png" className="" />
-                    </div>
-                    <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Pablo Etcheverry, <br/>
-                        <p className="text-xl"><i><b>Data Analyst</b></i></p>
                     </div>
                 </div>
 
@@ -119,30 +135,11 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-10.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Eugenia Sanchez M, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <AR title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>Eugenia Sanchez M, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Data Scientist</b></i></p>
-                    </div>
-                </div>
-
-                {/* tenth image */}
-                <div className="carousel-item flex flex-col bg-[#e4d0bc]">
-                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-11.png" className="" />
-                    </div>
-                    <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Adriana Do Lima, <br/>
-                        <p className="text-xl"><i><b>ML Engineer</b></i></p>
-                    </div>
-                </div>
-
-                {/* eleventh image */}
-                <div className="carousel-item flex flex-col bg-[#e4d0bc]">
-                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-12.png" className="" />
-                    </div>
-                    <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Emilia Fernández, <br/>
-                        <p className="text-xl"><i><b>Frontend Engineer</b></i></p>
                     </div>
                 </div>
 
@@ -152,7 +149,10 @@ const TalentGallery = () => {
                         <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src="/people/people-13.png" className="" />
                     </div>
                     <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                        Pilar Pereira, <br/>
+                        <div className="flex flex-row gap-1"> 
+                            <BR title="United States" className="w-auto h-[10px] mt-2"/> 
+                            <p>Adriana Do Lima, <br/></p>
+                        </div>
                         <p className="text-xl"><i><b>Solutions Architect</b></i></p>
                     </div>
                 </div>
