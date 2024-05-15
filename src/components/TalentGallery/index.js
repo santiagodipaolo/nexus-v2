@@ -11,7 +11,7 @@ import { CO } from 'country-flag-icons/react/3x2'
 
 const TalentGallery = () => {
     return (
-        <div id="talent" className="xs:max-w-xs md:max-w-full mt-40"> 
+        <div id="talent" className="xs:max-w-xs md:max-w-full mt-40 mb-10"> 
             <div className="flex flex-col">
                 <div className="lg:text-3xl md:text-xl md:m-5 flex text-black text-center justify-center mb-8">
                     {/* <GoArrowUpRight /> */}
@@ -29,7 +29,7 @@ const TalentGallery = () => {
             </div>
 
             {/* carousel */}
-            <div className="carousel carousel-center max-w-full pb-2 space-x-4 bg-[#f5ede5] border-b border-gray-500 h-[500px]">
+            <div className="carousel carousel-center max-w-full pb-2 space-x-4 bg-[#f5ede5] h-[500px]">
             <FaArrowCircleLeft className="absolute mt-40 z-50 xs:left-8 md:left-0 bg-black text-white" style={{width:'40px', height:'auto', borderRadius:'30px'}}/>
                 {/* first image */}
                 <div className="carousel-item flex flex-col bg-[#e4d0bc]">
