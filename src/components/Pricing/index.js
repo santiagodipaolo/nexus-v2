@@ -6,7 +6,7 @@ export const Pricing = () => {
                 <div className="text-center">
                     <p className="mb-5 text-lg">Save 40-70% vs comparable US-based talent</p>
                     <h1 className="text-4xl font-semibold tracking-tighter text-gray-200">
-                      Pricing that fits your company
+                      Pricing &nbsp;that &nbsp;fits &nbsp;your &nbsp;company
                     </h1>
                     {/* <p className="mt-4 text-base text-lg text-black">
                       At <b className="text-gray-300">Nexus,</b> we are more than a recruitment agency; we are your partners in growth and innovation. Whether you&apos;re looking to expand your company with a skilled professional or team, Nexus is here to support you every step of the way.<br/><br/>
