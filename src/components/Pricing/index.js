@@ -66,7 +66,7 @@ export const Pricing = () => {
                     </div>
                   </div>
                     <div className="flex w-[350px] m-auto mt-5">
-                      <a href="https://view.forms.app/santiagodipaolo/nexus" target="_blank" className="font-semibold inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium duration-200 bg-gray-100 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 bg-green-500 my-2 mx-2 hover:bg-green-600" aria-describedby="planDescription" aria-label="Button" type="button">
+                      <a href="https://7i7zpal0.forms.app/nexus" target="_blank" className="font-semibold inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium duration-200 bg-gray-100 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 bg-green-500 my-2 mx-2 hover:bg-green-600" aria-describedby="planDescription" aria-label="Button" type="button">
                         REQUEST A QUOTE
                       </a>
                     </div>
