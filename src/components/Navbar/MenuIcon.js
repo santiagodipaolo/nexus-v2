@@ -38,7 +38,7 @@ export default function MenuIcon(props) {
                   <ul className="flex flex-col flex-start items-center space-y-6 text-xl">
                     <Link href="#about" onClick={toggleMenu} className="font-semibold text-gray-700">ABOUT</Link>
                     <Link href="#talent" onClick={toggleMenu} className="font-semibold text-gray-700">TALENT</Link>
-                    <Link href="#" onClick={toggleMenu} className="font-semibold text-gray-700">CAREERS</Link>
+                    <a href="https://careers-nexus.notion.site/Nexus-18b82946aead40249b07f57091c638c7" target='_blank' onClick={toggleMenu} className="font-semibold text-gray-700">CAREERS</a>
                     <Link href="#pricing" onClick={toggleMenu} className="font-semibold text-gray-700">PRICING</Link>
                     {/* <Link href="#" onClick={toggleMenu} className="font-semibold text-gray-700">BLOG</Link> */}
                   </ul>
