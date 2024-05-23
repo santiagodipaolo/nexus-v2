@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 
-import { FaInstagram } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { BiLogoTelegram } from "react-icons/bi";
+import { BsTwitterX } from "react-icons/bs";
 import { FaArrowUp } from "react-icons/fa";
 
 import Logo from "../../../public/nexus-logo.png"
@@ -79,9 +79,9 @@ export const Footer = () => {
               <Image alt="Nexus Logo" width={80} height={80} src={Logo} />
             </div>
             <ul className="mt-8 flex justify-center gap-2 sm:mt-0 lg:justify-center text-black xs:mb-7 md:mb-0 xl:pl-28">
-              <li><FaInstagram /></li>
-              <li><BsLinkedin /></li>
-              <li><BiLogoTelegram /></li>
+              <li><a href="http://x.com/nexus_lat" target="_blank"><BsTwitterX /></a></li>
+              <li><a href="https://www.linkedin.com/company/nexus-lat/" target="_blank"><BsLinkedin /></a></li>
+              <li><a href="https://t.me/nexus_lat" target="_blank"><BiLogoTelegram /></a></li>
             </ul>
             <div className="flex flex-row gap-2 text-gray-800 xs:m-auto md:m-0">
               <button className="text-sm font-medium text-balance" onClick={scrollToTop}>
