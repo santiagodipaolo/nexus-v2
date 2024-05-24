@@ -8,8 +8,9 @@ import { UY } from 'country-flag-icons/react/3x2'
 import { CL } from 'country-flag-icons/react/3x2'
 import { MX } from 'country-flag-icons/react/3x2'
 import { CO } from 'country-flag-icons/react/3x2'
+import Carousel from "./carousel";
  
-interface MarqueeProps {
+interface TalentCarouselProps {
   className?: string;
   reverse?: boolean;
   pauseOnHover?: boolean;
@@ -19,18 +20,18 @@ interface MarqueeProps {
   [key: string]: any;
 }
  
-export default function Marquee({
+export default function TalentCarousel({
   className,
   reverse,
-  pauseOnHover = false,
+  pauseOnHover = true,
   children,
   vertical = false,
-  repeat = 4,
+  repeat = 1,
   ...props
-}: MarqueeProps) {
+}: TalentCarouselProps) {
 
      
-const talents = [
+  const talents = [
     {
       name: "María Rodriguez",
       role: "Creative Director",
@@ -89,20 +90,10 @@ const talents = [
 
   return (
     <div
-      {...props}
-      className={cn(
-        "group overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)] xs:max-w-xs md:max-w-full mt-10 mb-10",
-        {
-          "flex-row": !vertical,
-          "flex-col": vertical,
-        },
-        className,
-      )}
-      id="talent"
+      className="xs:max-w-xs md:max-w-full mt-40 mb-10" id="talent"
     >
         <div className="flex flex-col">
             <div className="lg:text-3xl md:text-xl md:m-5 flex text-black text-center justify-center mb-8">
-                {/* <GoArrowUpRight /> */}
                 <h1 className="font-semibold xs:text-xl md:text-3xl">
                     We&apos;re sector agnostic and source people from <b><i>all skill levels</i></b> to fit your specific needs
                 </h1>
@@ -116,33 +107,7 @@ const talents = [
             </div>
         </div>
         {/* carousel */}
-        <div className="carousel carousel-center max-w-full pb-2 space-x-4 bg-[#f5ede5] h-[500px]">
-        {talents
-            .map((talent, i) => (
-            <div
-                key={i}
-                className={cn("flex shrink-0 justify-around [gap:var(--gap)]", {
-                "animate-marquee flex-row": !vertical,
-                "animate-marquee-vertical flex-col": vertical,
-                "group-hover:[animation-play-state:paused]": pauseOnHover,
-                "[animation-direction:reverse]": reverse,
-                })}
-            >
-                <div className="carousel-item flex flex-col bg-[#e4d0bc]">
-                    <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-                            <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src={talent.img} className="" />
-                        </div>
-                        <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
-                            <div className="flex flex-row gap-1"> 
-                                {talent.flag}
-                                <p>{talent.name}, <br/></p>
-                            </div>
-                            <p className="text-xl"><i><b>{talent.role}</b></i></p>
-                        </div>
-                    </div> 
-            </div>
-            ))}
-        </div>
+        <Carousel />
     </div>
   );
 }
