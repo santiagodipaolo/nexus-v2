@@ -17,7 +17,9 @@ export const Navbar = () => {
 
     return (
         <nav className="flex justify-between px-20 py-10 items-center bg-[#f5ede5]">
-            <Image alt="Nexus Logo" src={Logo} className="xs:ml-0 md:ml-14" style={{width:"90px", height:"auto"}}/>
+            <Link href="/">
+                <Image alt="Nexus Logo" src={Logo} className="xs:ml-0 md:ml-14 cursor-pointer" style={{width:"90px", height:"auto"}}/>
+            </Link>
             <div className="flex items-center">
                 <div className="text-black md:hidden">
                     <MenuIcon />
@@ -32,7 +34,7 @@ export const Navbar = () => {
                             <ul className="flex flex-col space-y-2 text-md">
                                 <li className="flex flex-row text-gray-800 gap-2">
                                     <FaArrowCircleRight className="mt-1"/>
-                                    <Link href="#about" onClick={toggleAboutMenu} className="text-gray-700">About us</Link>
+                                    <Link href="/#about" onClick={toggleAboutMenu} className="text-gray-700">About us</Link>
                                 </li>
                                 {/* <li className="flex flex-row text-gray-800 gap-2">
                                     <FaArrowCircleRight className="mt-1" />
@@ -41,9 +43,9 @@ export const Navbar = () => {
                             </ul>
                         </div>
                     )}
-                    <Link href="#talent" className=" text-gray-700">TALENT</Link>
+                    <Link href="/#talent" className=" text-gray-700">TALENT</Link>
                     <a href="https://careers-nexus.notion.site/Nexus-18b82946aead40249b07f57091c638c7" target='_blank' className=" text-gray-700">CAREERS</a>
-                    <Link href="#pricing" className=" text-gray-700">PRICING</Link>
+                    <Link href="/#pricing" className=" text-gray-700">PRICING</Link>
                     {/* <Link href="#" className=" text-gray-700">BLOG</Link> */}
                     <a href="https://7i7zpal0.forms.app/nexus" target="_blank" className="hover:pointer bg-green-500 hover:bg-green-600 p-2 text-white rounded-sm text-sm font-bold">REQUEST A QUOTE</a>
                 </ul>

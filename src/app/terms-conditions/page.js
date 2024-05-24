@@ -2,9 +2,9 @@
 const TermsAndConditions = () => {
   return (
     <div className="bg-[#f5ede5] flex min-h-screen flex-col items-center justify-between overflow-hidden">
-        <p className="text-gray-600">
+        <div className="text-gray-600">
             <h1 className="text-center text-3xl mt-10 text-gray-800 font-semibold">Nexus Terms & Conditions</h1>
-            <p className="p-20">
+            <div className="p-20">
               These terms and conditions ("Agreement") govern the use of the services ("Services") provided by Nexus ("Company") to its clients ("Client" or "Clients") in connection with the provision of talent recruitment and payroll services.
               <br/>
               <br/>
@@ -54,8 +54,8 @@ const TermsAndConditions = () => {
               <br/>
               <p className="text-lg font-semibold">11. Entire Agreement</p>
               This Agreement constitutes the entire agreement between Company and Client concerning the subject matter hereof. It supersedes all prior or contemporaneous communications and proposals, whether oral or written, between the parties.
-            </p>
-        </p>
+            </div>
+        </div>
     </div>
   )
 }
