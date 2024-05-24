@@ -9,6 +9,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 import Logo from "../../../public/nexus-logo.png"
 import Contact from "./contactForm";
+import Link from "next/link";
 
 export const Footer = () => {
 
@@ -34,7 +35,7 @@ export const Footer = () => {
               <h3 className="text-base text-white font-semibold"><i>Company</i></h3>
               <ul role="list" className="mt-4 space-y-2 text-sm">
                 <li>
-                  <a href="#about" className="hover:underline">
+                  <a href="/#about" className="hover:underline">
                     ABOUT
                   </a>
                 </li>
@@ -44,7 +45,7 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="/terms-conditions" className="hover:underline">
                     TERMS & CONDITIONS
                   </a>
                 </li>
@@ -54,12 +55,12 @@ export const Footer = () => {
               <h3 className="text-base text-white font-semibold xs:mt-5"><i>Product</i></h3>
               <ul role="list" className="mt-4 space-y-2 text-sm">
                 <li>
-                  <a href="#pricing" className="hover:underline">
+                  <a href="/#pricing" className="hover:underline">
                     PRICING
                   </a>
                 </li>
                 <li>
-                  <a href="#talent" className="hover:underline">
+                  <a href="/#talent" className="hover:underline">
                     TALENT
                   </a>
                 </li>
@@ -69,7 +70,9 @@ export const Footer = () => {
           
           <div className="flex flex-col mt-12 md:flex-row md:items-center md:justify-between bg-[#F8F5F2] px-8 py-12 mx-auto md:px-12 lg:px-32">
             <div className="xs:text-center xs:flex justify-center md:pl-0 lg:pl-0 xl:pl-32">
+            <Link href="/">
               <Image alt="Nexus Logo" width={80} height={80} src={Logo} />
+            </Link>
             </div>
             <ul className="mt-8 flex justify-center gap-2 sm:mt-0 lg:justify-center text-black xs:mb-7 md:mb-0 xl:pl-28">
               <li><a href="http://x.com/nexus_lat" target="_blank"><BsTwitterX /></a></li>
