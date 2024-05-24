@@ -98,7 +98,7 @@ export default function TalentCarousel({
                     We&apos;re sector agnostic and source people from <b><i>all skill levels</i></b> to fit your specific needs
                 </h1>
             </div>
-            <div className="xl:flex xs:grid xs:grid-cols-1 md:m-10 md:grid-cols-2 xl:flex-row justify-center">
+            <div className="xl:flex xs:grid xs:grid-cols-1 md:m-5 md:grid-cols-2 xl:flex-row justify-center">
                 <div className="badge badge-outline font-thin text-gray-600 m-1 xs:text-xs">SALES AND MARKETING</div>
                 <div className="badge badge-outline font-thin text-gray-600 m-1 xs:text-xs">DEVELOPMENT AND SOFTWARE ENGINEERING</div>
                 <div className="badge badge-outline font-thin text-gray-600 m-1 xs:text-xs">UX/UI AND DESIGN</div>
