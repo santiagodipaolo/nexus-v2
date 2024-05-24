@@ -34,10 +34,10 @@ export const Navbar = () => {
                                     <FaArrowCircleRight className="mt-1"/>
                                     <Link href="#about" onClick={toggleAboutMenu} className="text-gray-700">About us</Link>
                                 </li>
-                                <li className="flex flex-row text-gray-800 gap-2">
+                                {/* <li className="flex flex-row text-gray-800 gap-2">
                                     <FaArrowCircleRight className="mt-1" />
                                     <Link href="#how-it-works" onClick={toggleAboutMenu} className="text-gray-700">How it works</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     )}
