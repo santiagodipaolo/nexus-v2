@@ -49,7 +49,7 @@ const TermsAndConditions = () => {
               <br/>
               <br/>
               <p className="text-lg font-semibold">10. Termination</p>
-              Company may terminate this Agreement at any time and for any reason, with or without notice. Upon termination, the Client&apos;;s access to the Services will be immediately revoked.
+              Company may terminate this Agreement at any time and for any reason, with or without notice. Upon termination, the Client&apos;s access to the Services will be immediately revoked.
               <br/>
               <br/>
               <p className="text-lg font-semibold">11. Entire Agreement</p>
