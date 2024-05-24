@@ -5,6 +5,7 @@ import Pricing from "@/components/Pricing";
 import Faq from "@/components/FAQ";
 import BenefitsTable from "@/components/Benefits";
 import VideoPlayer from "@/components/VideoPlayer";
+import Marquee from "@/components/TalentGallery/test";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <TalentGallery />
       <Pricing />
       {/* <VideoPlayer /> */}
+      <Marquee />
       <Faq />
     </main>
   );
