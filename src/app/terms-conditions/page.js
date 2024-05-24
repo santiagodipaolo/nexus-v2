@@ -37,7 +37,7 @@ const TermsAndConditions = () => {
               <br/>
               <br/>
               <p className="text-lg font-semibold">7. Indemnification</p>
-              Client agrees to indemnify and hold harmless Company, its affiliates, and their respective officers, directors, employees, and agents from any claims, liabilities, damages, and expenses, including without limitation, reasonable attorneys&quot; fees and costs, arising out of or in connection with Client&quot;s use of the Services.
+              Client agrees to indemnify and hold harmless Company, its affiliates, and their respective officers, directors, employees, and agents from any claims, liabilities, damages, and expenses, including without limitation, reasonable attorneys&apos; fees and costs, arising out of or in connection with Client&quot;s use of the Services.
               <br/>
               <br/>
               <p className="text-lg font-semibold">8. Severability</p>
@@ -49,7 +49,7 @@ const TermsAndConditions = () => {
               <br/>
               <br/>
               <p className="text-lg font-semibold">10. Termination</p>
-              Company may terminate this Agreement at any time and for any reason, with or without notice. Upon termination, the Client&quot;s access to the Services will be immediately revoked.
+              Company may terminate this Agreement at any time and for any reason, with or without notice. Upon termination, the Client&apos;;s access to the Services will be immediately revoked.
               <br/>
               <br/>
               <p className="text-lg font-semibold">11. Entire Agreement</p>

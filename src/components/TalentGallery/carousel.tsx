@@ -1,5 +1,4 @@
 import React from "react";
-import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
 
 import { AR } from 'country-flag-icons/react/3x2'
@@ -82,7 +81,7 @@ const TalentCard = ({
     <div className="carousel carousel-center max-w-full pb-2 space-x-4 bg-[#f5ede5] h-[500px]">
         <div className="carousel-item flex flex-col bg-[#e4d0bc]">
         <div className="w-full h-full" style={{ height: '500px', width:'300px', position: 'relative' }}>
-        <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src={img} className="" />
+          <Image alt="talent" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill={true} src={img} className="" />
         </div>
         <div className="bg-[#fcfbfa] text-black py-5 px-5 text-start text-lg">
         <div className="flex flex-row gap-1"> 
