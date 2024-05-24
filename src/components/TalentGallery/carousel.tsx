@@ -98,7 +98,7 @@ const TalentCard = ({
 
 const Carousel = () => {
   return (
-    <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg py-10">
+    <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg py-0">
       <Marquee pauseOnHover className="[--duration:35s]">
         {talents.map((talent) => (
           <TalentCard key={talent.role} {...talent} />
