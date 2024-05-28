@@ -67,7 +67,7 @@ export default function MenuIcon(props) {
                       Want to know more? <br/>
                       <b><i>Get in touch</i></b>
                     </p>
-                    <Contact />
+                    <Contact toggleMenu={toggleMenu}/>
                   </div>
                 </div>
             )}
