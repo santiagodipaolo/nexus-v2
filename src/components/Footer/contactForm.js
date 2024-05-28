@@ -1,6 +1,15 @@
-export default function Contact() {
+'use client'
+
+import { useState } from 'react';
+import { useRouter } from 'next/navigation'
+
+export default function Contact({toggleMenu}) {
+    const router = useRouter();
+    const [isLoading, setIsLoading] = useState(false);
+
     async function handleSubmit(event) {
         event.preventDefault();
+        setIsLoading(true)
         const formData = new FormData(event.target);
 
         formData.append("access_key", "06d5d0b6-c4d7-4427-b620-12d36c7457b4");
@@ -18,7 +27,9 @@ export default function Contact() {
         });
         const result = await response.json();
         if (result.success) {
-            console.log(result);
+            setIsLoading(false);
+            toggleMenu();
+            router.push("/email-success");
         }
     }
 
@@ -29,6 +40,7 @@ export default function Contact() {
                 <label htmlFor="email" className="sr-only">Email Address</label>
                 <input name="email" id="email" type="email" placeholder="Email Address" className="block w-full h-12 px-5 py-3 duration-200 text-white bg-chalk border-zinc-300 text-accent-500 placeholder-zinc-300 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm" />
                 <button type="submit" aria-label="Primary action" className="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 text-sm text-white duration-200 bg-green-500 md:w-auto hover:bg-green-800 focus:ring-2 focus:ring-offset-2 focus:ring-black">
+                    {isLoading ? <span className="loading loading-dots loading-md"></span> : null}
                     SUBMIT
                 </button>
             </div>
