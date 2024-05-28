@@ -20,6 +20,8 @@ export const Footer = () => {
       });
     };
 
+    const voidFunc = () => {}
+
     return (
         <footer >
           <div className="flex flex-row xs:flex-col md:flex-row justify-between px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
@@ -28,7 +30,7 @@ export const Footer = () => {
                 Want to know more? <br/>
                 <b><i>Get in touch</i></b>
               </p>
-              <Contact />
+              <Contact toggleMenu={voidFunc}/>
             </div>
             
             <div>
