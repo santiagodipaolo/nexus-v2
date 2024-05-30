@@ -84,7 +84,7 @@ function UnderlineIcon() {
 
 function UnderlineIcon2() {
   return (
-    <Image alt="underline icon" src={Underline} className="xs:w-[110px] md:w-[140px] xs:ml-[-1rem] mt-[-22px] md:ml-[-1rem] xl:ml-[-1rem]" />
+    <Image alt="underline icon" src={Underline} className="xs:w-[110px] md:w-[140px] xs:ml-[-1rem] mt-[-21px] md:ml-[-1rem] xl:ml-[-1rem]" />
   )
 }
 
