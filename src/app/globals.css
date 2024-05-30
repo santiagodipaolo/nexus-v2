@@ -32,3 +32,33 @@ body {
     text-wrap: balance;
   }
 }
+
+.hero-gradient-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-gradient-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(to right, rgb(76, 206, 76), rgb(78, 195, 219), rgb(76, 206, 76), rgb(78, 195, 219));
+}
+
+.title-gradient-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.title-gradient-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: linear-gradient(to right, rgb(76, 206, 76), rgb(78, 195, 219), rgb(76, 206, 76), rgb(78, 195, 219));
+}

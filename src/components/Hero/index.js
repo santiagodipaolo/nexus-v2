@@ -13,8 +13,10 @@ export const Hero = () =>  {
           <h1 className="xs:text-5xl md:text-6xl font-semibold leading-tigh">
             {/* <div className="flex flex-row gap-4"> */}
               <div className="flex flex-col m-auto">
-                We&apos;re your gateway
-                <UnderlineIcon />
+                <div>
+                  <span className="hero-gradient-underline">We&apos;re</span>&nbsp;your gateway
+                  {/* <UnderlineIcon /> */}
+                </div>
               </div>
               {/* <GlobeIcon />  */}
             {/* </div> */}
@@ -36,7 +38,7 @@ export const Hero = () =>  {
         <div className="absolute mt-[-30px] ml-[-50px] top-0 left-0 xs:hidden md:hidden xl:block">
           <Image alt="question mark" src={HeroLine1} style={{width:"500px", height:"auto"}} /> 
         </div>
-        <div className="absolute top-80 right-0 xs:hidden md:hidden xl:block mt-[-21.5px] mr-[-26px]">
+        <div className="absolute top-80 right-0 xs:hidden md:hidden xl:block mt-[-50.5px] mr-[-26px]">
           <Image alt="question mark" src={HeroLine2} style={{width:"500px", height:"auto"}} /> 
         </div>
       </div>

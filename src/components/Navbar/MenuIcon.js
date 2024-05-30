@@ -35,7 +35,7 @@ export default function MenuIcon(props) {
             </svg>
           </button>
             {isOpen && (
-                <div className="border rounded-md absolute bg-[#f5ede5] top-0 right-0 left-0 h-screen p-10 max-h-[750px] border-b border-gray-700">
+                <div className="z-10 border rounded-md absolute bg-[#f5ede5] top-0 right-0 left-0 h-screen p-10 max-h-[750px] border-b border-gray-700">
                   <div className='flex justify-between'>
                     <Link href="/">
                       <Image alt="Nexus Logo" src={Logo} className="mt-2 cursor-pointer" style={{width:"90px", height:"auto"}}/>
