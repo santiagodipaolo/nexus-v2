@@ -6,7 +6,6 @@ import Image from 'next/image';
 
 import Logo from "../../../public/nexus-logo.png"
 import { IoIosArrowForward } from "react-icons/io";
-import Contact from '../Footer/contactForm';
 
 export default function MenuIcon(props) {
     const [isOpen, setIsOpen] = useState(false);
@@ -36,10 +35,10 @@ export default function MenuIcon(props) {
             </svg>
           </button>
             {isOpen && (
-                <div className="border rounded-md absolute bg-[#f5ede5] top-0 right-0 left-0 h-screen p-10 max-h-[800px] border-b border-gray-700">
+                <div className="border rounded-md absolute bg-[#f5ede5] top-0 right-0 left-0 h-screen p-10 max-h-[750px] border-b border-gray-700">
                   <div className='flex justify-between'>
                     <Link href="/">
-                        <Image alt="Nexus Logo" src={Logo} className="mt-2 cursor-pointer" style={{width:"90px", height:"auto"}}/>
+                      <Image alt="Nexus Logo" src={Logo} className="mt-2 cursor-pointer" style={{width:"90px", height:"auto"}}/>
                     </Link>
                     <button onClick={toggleMenu} className='flex justify-end text-xl font-bold'>X</button>
                   </div>
@@ -62,12 +61,13 @@ export default function MenuIcon(props) {
                     </div>
                     {/* <Link href="#" onClick={toggleMenu} className="text-gray-700">BLOG</Link> */}
                   </ul>
-                  <div className="flex flex-col justify-between gap-8 mt-40">
+                  <div className="flex flex-col justify-between gap-8 mt-32">
                     <p className="text-3xl text-center font-semibold ">
-                      Want to know more? <br/>
-                      <b><i>Get in touch</i></b>
+                      <i>Want to know more?</i> <br/>
                     </p>
-                    <Contact toggleMenu={toggleMenu}/>
+                  </div>
+                  <div className="text-center mt-8">
+                    <a href="https://7i7zpal0.forms.app/nexus" target="_blank" className="hover:pointer mt-6 p-3 text-white rounded-sm text-lg font-bold bg-green-500 my-2 mx-2 hover:bg-green-600">REQUEST A QUOTE</a>
                   </div>
                 </div>
             )}
