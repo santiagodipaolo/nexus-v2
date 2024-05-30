@@ -12,7 +12,7 @@ const BenefitsTable = () => {
                 <thead className="bg-black text-white text-lg">
                 <tr>
                     <th className="border-r border-gray-500"><i>Benefits</i></th>
-                    <th className=""><i>For your business</i></th>
+                    <th className=""><i>For&nbsp; your&nbsp; business</i></th>
                 </tr>
                 </thead>
                 <tbody className="bg-[#F8F5F2] text-black">
