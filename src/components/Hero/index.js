@@ -14,7 +14,7 @@ export const Hero = () =>  {
             {/* <div className="flex flex-row gap-4"> */}
               <div className="flex flex-col m-auto">
                 <div>
-                  <u className="underline decoration-green-500">We&apos;re</u>&nbsp;your gateway
+                  <span className="hero-gradient-underline">We&apos;re</span>&nbsp;your gateway
                   {/* <UnderlineIcon /> */}
                 </div>
               </div>
