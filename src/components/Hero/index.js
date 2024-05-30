@@ -13,8 +13,10 @@ export const Hero = () =>  {
           <h1 className="xs:text-5xl md:text-6xl font-semibold leading-tigh">
             {/* <div className="flex flex-row gap-4"> */}
               <div className="flex flex-col m-auto">
-                We&apos;re your gateway
-                <UnderlineIcon />
+                <div>
+                  <u className="underline decoration-green-500">We&apos;re</u>&nbsp;your gateway
+                  {/* <UnderlineIcon /> */}
+                </div>
               </div>
               {/* <GlobeIcon />  */}
             {/* </div> */}

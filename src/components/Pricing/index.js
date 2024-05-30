@@ -9,9 +9,9 @@ export const Pricing = () => {
                 <div className="text-center">
                   <div className="flex flex-col m-auto">
                     <p className="mb-5 text-lg mt-10">
-                      Save 40-70% vs comparable US-based talent
+                      <u className="underline decoration-green-500">Save 40-70%</u> vs comparable US-based talent
                     </p>
-                    <UnderlineIcon />
+                    {/* <UnderlineIcon /> */}
                   </div>
                     <h1 className="text-4xl font-semibold tracking-tighter text-white">
                       Pricing &nbsp;that &nbsp;fits &nbsp;your &nbsp;company
@@ -27,8 +27,8 @@ export const Pricing = () => {
                       <div className="p-2 overflow-hidden border rounded-3xl">
                         <div className="xs:h-[250px] md:h-[435px] xl:h-[290px] p-8 bg-[#f5ede5] border shadow-2xl rounded-2xl lg:p-10">
                           <div>
-                            <span className="text-lg font-medium text-black lg:text-2xl">Placement</span>
-                            <UnderlineIcon2 />
+                            <span className="text-lg font-medium text-black lg:text-2xl underline decoration-green-500">Placement</span>
+                            {/* <UnderlineIcon2 /> */}
                             <p className="mt-4 text-base font-medium text-gray-500">
                               We handle the entire hiring process allowing you to interview the top candidates.
                               Once the ideal candidate is found, your company takes care of the documentation and monthly salary payments.
@@ -41,8 +41,8 @@ export const Pricing = () => {
                       <div className="p-2 overflow-hidden border rounded-3xl">
                         <div className="xs:h-[250px] md:h-[435px] xl:h-[290px] p-8 bg-[#f5ede5] border shadow-2xl rounded-2xl lg:p-10">
                           <div>
-                            <span className="text-lg font-medium text-black lg:text-2xl">Staffing</span>
-                            <UnderlineIcon3 />
+                            <span className="text-lg font-medium text-black lg:text-2xl underline decoration-green-500">Staffing</span>
+                            {/* <UnderlineIcon3 /> */}
                             <p className="mt-4 text-base font-medium text-gray-500">
                               We take care of the entire hiring process, including all necessary paperwork 
                               and documentation for international hiring and monthly salary payments.
@@ -55,8 +55,8 @@ export const Pricing = () => {
                       <div className="p-2 overflow-hidden border rounded-3xl">
                         <div className="xs:h-[250px] md:h-[435px] xl:h-[290px] p-8 bg-[#f5ede5] border shadow-2xl rounded-2xl lg:p-10">
                           <div>
-                            <span className="text-lg font-medium text-black lg:text-2xl">Teams</span>
-                            <UnderlineIcon4 />
+                            <span className="text-lg font-medium text-black lg:text-2xl underline decoration-green-500">Teams</span>
+                            {/* <UnderlineIcon4 /> */}
                             <p className="mt-4 text-base font-medium text-gray-500">
                               For companies looking to build entire remote teams.
                             </p>
