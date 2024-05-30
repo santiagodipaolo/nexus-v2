@@ -7,9 +7,9 @@ const Faq = () => {
 
   return (
     <div className="flex flex-col justify-center xs:p-10 md:p-0 items-center bg-[url('/faq-bg.png')] xs:h-[950px] md:h-[650px] lg:h-[700px] xl:h-[550px] w-full">
-        <h1 className="font-semibold text-black text-3xl text-center mt-10 mb-5">Frequently asked <i>questions</i></h1>
-        <div className="flex flex-row mb-16 text-white">
-            <div className="join join-vertical w-full md:w-[600px] xl:w-[800px] bg-black lg:mr-24">
+        <h1 className="font-semibold text-black text-3xl text-center xs:mr-0 xl:mr-20 mt-10 mb-5">Frequently asked <i>questions</i></h1>
+        <div className="flex flex-row mb-16 text-white xl:mr-24">
+            <div className="join join-vertical w-full md:w-[600px] xl:w-[800px] bg-black">
                 <div className="collapse collapse-arrow join-item border border-base-300">
                     <input type="radio" name="my-accordion-4" /> 
                     <div className="collapse-title text-xl font-medium">
