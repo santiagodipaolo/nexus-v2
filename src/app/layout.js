@@ -14,6 +14,9 @@ const faustina = Faustina({
 export const metadata = {
   title: "Nexus",
   description: "Recruiting Agency for LATAM professionals",
+  icons: {
+    icon: '/favicon.png', 
+  },
 };
 
 export default function RootLayout({ children }) {
