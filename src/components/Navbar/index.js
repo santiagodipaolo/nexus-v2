@@ -44,10 +44,10 @@ export const Navbar = () => {
                         </div>
                     )}
                     <Link href="/#talent" className=" text-gray-700">TALENT</Link>
-                    <a href="https://careers-nexus.notion.site/Nexus-18b82946aead40249b07f57091c638c7" target='_blank' className=" text-gray-700">CAREERS</a>
+                    <a href="https://careers.nexus.lat" target='_blank' className=" text-gray-700">CAREERS</a>
                     <Link href="/#pricing" className=" text-gray-700">PRICING</Link>
-                    {/* <Link href="#" className=" text-gray-700">BLOG</Link> */}
-                    <a href="https://7i7zpal0.forms.app/nexus" target="_blank" className="hover:pointer bg-green-500 hover:bg-green-600 p-2 text-white rounded-sm text-sm font-bold">REQUEST A QUOTE</a>
+                    <Link href="/blog" className=" text-gray-700">BLOG</Link>
+                    <a href="https://quote.nexus.lat" target="_blank" className="hover:pointer bg-green-500 hover:bg-green-600 p-2 text-white rounded-sm text-sm font-bold">REQUEST A QUOTE</a>
                 </ul>
             </div>
         </nav>

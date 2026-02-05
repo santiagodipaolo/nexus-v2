@@ -42,7 +42,7 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://careers-nexus.notion.site/Nexus-18b82946aead40249b07f57091c638c7" className="hover:underline">
+                  <a href="https://careers.nexus.lat" className="hover:underline">
                     CAREERS
                   </a>
                 </li>
