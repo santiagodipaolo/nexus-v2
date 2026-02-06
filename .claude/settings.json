@@ -1,0 +1,10 @@
+{
+  "customInstructions": "Cuando trabajes en este proyecto, SIEMPRE lee primero los archivos en .claude/memory/ para tener contexto del SEO y competidores. Si el usuario menciona SEO, carga el agente desde .claude/agents/seo-master-agent.md",
+  "agents": {
+    "seo": {
+      "path": ".claude/agents/seo-master-agent.md",
+      "description": "Agente especializado en SEO para Nexus",
+      "triggers": ["seo", "keywords", "competitors", "ranking", "google"]
+    }
+  }
+}
