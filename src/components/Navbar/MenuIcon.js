@@ -48,6 +48,10 @@ export default function MenuIcon(props) {
                       <IoIosArrowForward className="text-gray-700 mt-1"/>
                     </div>
                     <div className="flex justify-between">
+                      <Link href="#team" onClick={toggleMenu} className="text-gray-700">Team</Link>
+                      <IoIosArrowForward className="text-gray-700 mt-1"/>
+                    </div>
+                    <div className="flex justify-between">
                       <Link href="#talent" onClick={toggleMenu} className="text-gray-700">Talent</Link>
                       <IoIosArrowForward className="text-gray-700 mt-1"/>
                     </div>
