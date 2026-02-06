@@ -1,16 +1,21 @@
+import { BsLinkedin } from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
+
 const Team = () => {
   const team = [
     {
       name: "Shaan Patel",
       role: "Co-Founder & CEO",
       initials: "SP",
-      linkedin: "https://www.linkedin.com/in/shaanpatel/"
+      linkedin: "https://www.linkedin.com/in/shaan-p-10011a208/",
+      twitter: "https://x.com/Shaaneezy"
     },
     {
       name: "Santiago Di Paolo",
       role: "Co-Founder & Board Member",
       initials: "SD",
-      linkedin: "https://www.linkedin.com/in/santiagodipaolo/"
+      linkedin: "https://www.linkedin.com/in/santidipaolo/",
+      twitter: "https://x.com/SantiDiPaolo"
     }
   ]
 
@@ -29,15 +34,25 @@ const Team = () => {
               <span className="text-white text-4xl font-bold">{member.initials}</span>
             </div>
             <h3 className="text-xl font-semibold text-black">{member.name}</h3>
-            <p className="text-gray-600 text-sm mb-2">{member.role}</p>
-            <a
-              href={member.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-green-600 hover:text-green-700 text-sm font-medium"
-            >
-              LinkedIn →
-            </a>
+            <p className="text-gray-600 text-sm mb-3">{member.role}</p>
+            <div className="flex gap-4">
+              <a
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-green-600 transition-colors"
+              >
+                <BsLinkedin size={20} />
+              </a>
+              <a
+                href={member.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-green-600 transition-colors"
+              >
+                <BsTwitterX size={20} />
+              </a>
+            </div>
           </div>
         ))}
       </div>
